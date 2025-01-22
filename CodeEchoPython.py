@@ -13,7 +13,7 @@ def load_models():
     """
 
     # Setup the Google Gemini AI API Key
-    google_api_key = "AIzaSyAEe2W0V7UzjzAvqQJNcsuO_uk2dnkqxPk"
+    google_api_key = "Your_api_key"
     genai.configure(api_key=google_api_key)
     text_model_pro = genai.GenerativeModel('gemini-pro')
     return text_model_pro
